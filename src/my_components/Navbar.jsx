@@ -9,7 +9,7 @@ function Navbar() {
           <li>Skills</li>
         </a>
         <a>
-          <li>Project</li>
+          <li>Projects</li>
         </a>
         <a>
           <li>Contact</li>

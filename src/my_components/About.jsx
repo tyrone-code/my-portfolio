@@ -8,7 +8,7 @@ function About() {
           <img src={myPhoto} alt="App Logo" />
           <div className="icon-links">
             <a
-              href="https://www.linkedin.com/in/yourusername/"
+              href="https://www.linkedin.com/in/tyrone-schoeman-973364308/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -16,13 +16,13 @@ function About() {
               <i className="fab fa-linkedin"></i>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/tyrone-code"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-github"></i>
             </a>
-            <a href="mailto:someone@example.com">
+            <a href="mailto:tyronessglaw@gmail.com" aria-label="Email">
               <i className="fas fa-envelope"></i>
             </a>
           </div>
@@ -54,6 +54,7 @@ function About() {
           </p>
         </div>
       </div>
+      <hr></hr>
     </>
   );
 }

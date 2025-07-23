@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
+
   margin: 0.2rem;
   padding: 0;
 }
@@ -11,14 +12,14 @@
   list-style-type: none;
 }
 
-a {
+.navbar a {
   position: relative;
   text-decoration: none;
   color: #000;
   cursor: pointer;
 }
 
-a::after {
+.navbar a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -33,4 +34,43 @@ a::after {
 
 a:hover::after {
   transform: scaleX(1);
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section div {
+  flex: 1; /* Each takes equal space */
+  padding: 1rem; /* Optional spacing inside */
+  max-width: 600px; /* Optional: controls max size */
+  box-sizing: border-box; /* Makes padding not break layout */
+}
+
+.about-section img {
+  width: 70%; /* Adjust as needed */
+  object-fit: cover; /* Makes it crop/fill nicely */
+  border-radius: 50%; /* Makes it a perfect circle */
+  border: 2px solid #ccc;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+.icon-links {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.icon-links a {
+  color: #333;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.icon-links a:hover {
+  color: #007bff; /* Change to your preferred hover color */
 }

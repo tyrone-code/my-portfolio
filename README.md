@@ -1,12 +1,46 @@
-# React + Vite
+# 🧑‍💻 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This site is a curated collection of my work, skills, and experience as a frontend developer.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Introduction/About Me section
+- Project gallery with descriptions
+- Contact links
 
-## Expanding the ESLint configuration
+## 🔧 Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- [Hosting platform, github for projects, netlify for the website portfolio.]
+
+## 📁 Installation
+
+To run the site locally:
+
+```bash
+git clone https://github.com/yourusername/portfolio-website.git
+cd portfolio-website
+# Open index.html in your browser, or run with Live Server
+```
+
+🔗 Live Demo
+Check out the live site here:
+👉 https://your-portfolio-link.vercel.app
+
+📬 Contact
+Feel free to reach out:
+
+📧 Email: your.email@example.com
+
+💼 LinkedIn: https://www.linkedin.com/in/yourprofile
+
+🐦 Twitter: https://twitter.com/yourhandle
+
+📄 License
+This project is open source and available under the MIT License.
+
+vbnet
+Copy
+Edit
+
+Let me know your actual links and I’ll insert them for you!

@@ -55,7 +55,6 @@ a:hover::after {
   border: 2px solid #ccc;
   display: block;
   margin: 0 auto;
-  margin-top: 2.5rem;
 }
 
 .icon-links {
@@ -75,12 +74,12 @@ a:hover::after {
   color: #007bff; /* Change to your preferred hover color */
 }
 
-.skills-parent {
+.project-parent {
   display: flex;
   justify-content: space-around;
 }
 
-.skills-parent img {
+.project-parent img {
   width: 50%;
 }
 
@@ -102,4 +101,62 @@ hr {
 .skills-parent div {
   flex: 1; /* or a fixed width */
   height: 100px;
+}
+
+.skills-parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-parent img {
+  width: 50%;
+}
+
+.project-parent img {
+  width: 50%;
+}
+
+.project-parent img {
+  width: 150px; /* Set a fixed width for all images */
+  height: 150px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures images fill the area without distortion */
+  margin: 10px; /* Add space between images */
+  border-radius: 8px; /* Rounded corners for a neat effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a clean look */
+  transition: all 0.3s ease-in-out;
+}
+
+.project-parent img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+  filter: brightness(1.1); /* Slight brightness increase */
+}
+
+.my-websites-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my-websites-parent img {
+  width: 50%;
+}
+
+.my-websites-parent img {
+  width: 150px; /* Set a fixed width for all images */
+  height: 150px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures images fill the area without distortion */
+  margin: 10px; /* Add space between images */
+  border-radius: 8px; /* Rounded corners for a neat effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a clean look */
+  transition: all 0.3s ease-in-out;
+}
+
+.my-websites-parent img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow */
+  filter: brightness(1.1); /* Slight brightness increase */
+}
+
+h2 {
+  text-decoration: underline;
 }

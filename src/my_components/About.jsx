@@ -36,7 +36,7 @@ function About() {
             developer and then eventually specialize in backend development.
           </p>
           <p>
-            I have created three projects with foundational fundamental html,
+            I have created these projects with foundational fundamental html,
             css and javascript which you can see at the project section. The
             current portfolio website you are currently viewing is made with the
             react library.

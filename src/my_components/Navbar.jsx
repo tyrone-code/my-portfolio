@@ -1,21 +1,21 @@
+import React from "react";
+
 function Navbar() {
   return (
-    <>
-      <ul className="navbar">
-        <a>
-          <li>About</li>
-        </a>
-        <a>
-          <li>Skills</li>
-        </a>
-        <a>
-          <li>Projects</li>
-        </a>
-        <a>
-          <li>Contact</li>
-        </a>
-      </ul>
-    </>
+    <ul className="navbar">
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
   );
 }
 

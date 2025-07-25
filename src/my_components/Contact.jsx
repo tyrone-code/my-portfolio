@@ -48,7 +48,7 @@ function ContactForm() {
       <hr></hr>
 
       <div className="contact-form-container">
-        <h2>Contact</h2>
+        <h2 className="contact">Contact</h2>
         {submitted ? (
           <p className="thank-you">Form has been submitted!</p>
         ) : (

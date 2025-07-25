@@ -160,3 +160,33 @@ hr {
 h2 {
   text-decoration: underline;
 }
+
+.contact-icons {
+  display: flex;
+  margin: 40px auto;
+  padding: 20px 30px;
+  color: #333;
+}
+
+.contact-icons p {
+}
+
+.contact-icons label {
+  display: flex;
+  font-size: 1.1rem;
+  color: #555;
+  width: 50%;
+}
+
+.contact-icons i,
+.contact-icons svg {
+  color: #007bff; /* icon color */
+  margin: 4px;
+  padding: 0.5rem;
+}
+
+.contact-icons span {
+  font-weight: 500;
+  margin: 6px;
+  color: #222;
+}

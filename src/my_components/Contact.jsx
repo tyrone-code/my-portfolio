@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./ContactForm.css"; // Import the CSS
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import emailjs from "emailjs-com";
 
 function ContactForm() {
   const [formData, setFormData] = useState({
@@ -21,8 +24,23 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    setSubmitted(true);
+
+    emailjs
+      .send(
+        "service_uzo9hnb",
+        "template_b1vnhrs",
+        formData,
+        "H9G14WShUK9ZzWSab"
+      )
+      .then(
+        (result) => {
+          console.log("Email successfully sent!", result.text);
+          setSubmitted(true);
+        },
+        (error) => {
+          console.error("Email sending error:", error.text);
+        }
+      );
   };
 
   return (
@@ -32,7 +50,7 @@ function ContactForm() {
       <div className="contact-form-container">
         <h2>Contact</h2>
         {submitted ? (
-          <p className="thank-you">Thank you for your message!</p>
+          <p className="thank-you">Form has been submitted!</p>
         ) : (
           <form onSubmit={handleSubmit} className="contact-form">
             <div className="form-group">
@@ -72,6 +90,20 @@ function ContactForm() {
             </button>
           </form>
         )}
+      </div>
+      <div
+        style={{ maxWidth: "400px", margin: "auto" }}
+        className="contact-icons"
+      >
+        <label htmlFor="phone">
+          <FontAwesomeIcon icon={faPhone} size="2x" />
+          <p>064 904 8321</p>
+        </label>
+        <br></br>
+        <label htmlFor="email">
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
+          <p>tyronessglaw@gmail.com</p>
+        </label>
       </div>
     </>
   );

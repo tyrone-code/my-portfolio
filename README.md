@@ -15,7 +15,7 @@ Welcome to my personal portfolio website! This site is a curated collection of m
 
 🔗 Live Demo
 Check out the live site here:
-👉 https://your-portfolio-link.vercel.app
+👉 https://tyroneschoeman.netlify.app/
 
 📬 Contact
 Feel free to reach out:

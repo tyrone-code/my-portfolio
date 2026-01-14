@@ -97,7 +97,7 @@ function ContactForm() {
       >
         <label htmlFor="phone">
           <FontAwesomeIcon icon={faPhone} size="2x" />
-          <p>064 904 8321</p>
+          <p>062 878 3936</p>
         </label>
         <br></br>
         <label htmlFor="email">

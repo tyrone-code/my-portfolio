@@ -30,27 +30,35 @@ function About() {
         <div className="about-text">
           <h1>Hi i'm Tyrone Schoeman</h1>
           <p>
-            I am a self-taught front-end web developer based in Krugersdorp
-            Gauteng. I formally worked as a paralegal before switching careers
-            to front-end web development. My goal is looking to become fullstack
-            developer and then eventually specialize in backend development.
+            I am a self-taught <strong>full-stack web developer</strong> based
+            in Krugersdorp, Gauteng, with experience building complete web
+            applications from front end to back end. My technical skill set
+            includes{" "}
+            <strong>
+              HTML, CSS, JavaScript, React, Node.js, Express.js, and SQL
+              databases
+            </strong>
+            .
           </p>
+
           <p>
-            I have created these projects with foundational fundamental html,
-            css and javascript which you can see at the project section. The
-            current portfolio website you are currently viewing is made with the
-            react library.
+            I have developed several projects that demonstrate my ability to
+            design responsive user interfaces, create RESTful APIs, and manage
+            database-driven applications. The portfolio website you are
+            currently viewing was built using <strong>React</strong> and
+            reflects my focus on clean code, performance, and user-centered
+            design.
           </p>
+
           <p>
-            During my free time, I enjoy gaming and watching sports,
-            additionally, I love camping and have a deep appreciation for
-            nature, often finding joy in hiking through its scenic beauty.
+            Outside of development, I enjoy gaming and watching sports, as well
+            as camping and hiking, where I draw inspiration from nature.
           </p>
+
           <p>
-            This website was crafted with the purpose of showcasing the projects
-            and experiences I've been fortunate to be a part of. Currently, I am
-            actively seeking new opportunities and connections, so please feel
-            free to get in touch with me!
+            This website was created to showcase my work and technical
+            experience. I am actively seeking new opportunities and
+            collaborations, so feel free to get in touch.
           </p>
         </div>
       </div>

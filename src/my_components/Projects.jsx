@@ -3,6 +3,9 @@ import noughtsCrosses from "../images/noughts-crosses.png";
 import etch from "../images/etch-a-sketch.png";
 import rps from "../images/rps.png";
 import library from "../images/library.png";
+import weatherApp from "../images/weather-app.png"
+import messageBoard from  "../images/message-board.png"
+
 
 import ssg from "../images/ssg-attorneys.png";
 import fiduciaryAssociation from "../images/fiduciary-association.png";
@@ -41,6 +44,18 @@ function Projects() {
             <a href="https://tyrone-code.github.io/library/">
               <p>Library</p>
               <img src={library} alt="library" />
+            </a>{" "}
+          </div>
+          <div>
+            <a href="https://tyrone-code.github.io/weather-app/">
+              <p>Weather app</p>
+              <img src={weatherApp} alt="weather-app" />
+            </a>{" "}
+          </div>
+          <div>
+            <a href="https://minimessageboard-production-7550.up.railway.app/">
+              <p>Message board</p>
+              <img src={messageBoard} alt="message-board" />
             </a>{" "}
           </div>
         </div>
